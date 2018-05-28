@@ -30,7 +30,7 @@ public class Connector {
         }
     }
 
-    private void connectRedis(){
+    public void connectRedis(){
         jedis = new Jedis("localhost");
     }
 
